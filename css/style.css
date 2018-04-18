@@ -35,6 +35,31 @@
 	background-attachment: fixed;  Parallax */
 	opacity: 0.9;
 }
+/*.shape{
+	position: relative;
+	width: 100%;
+	background: #fb6b19;
+}
+.shape:before{
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 95px;
+	top: -50px;
+	left: 0;
+	background: #fff;
+	transform: skewY(5deg);
+}
+.shape:after{
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 95px;
+	top: -50px;
+	right: 0;
+	background: #fff;
+	transform: skewY(-5deg);
+}*/
 
 /* Scroll animation */
 .scroll-ani{
@@ -93,13 +118,20 @@
 
 /*About us*/
 .space{
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 /* Image */
 .image{
 	height: 30%;
 	width: 30%;
+}
+
+.official-member{
+	margin-top: 10px;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
 }
 
 /* Footer */
@@ -117,3 +149,5 @@
 	margin-top: 50px;
 	margin-right: 20%;
 }
+
+
